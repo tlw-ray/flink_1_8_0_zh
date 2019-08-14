@@ -1,0 +1,1 @@
+docker run --name Flink -p 8081:8081 -p 6123:6123 -d -t 172.16.0.183:8082/dcs/flink:1.8.0-190602 jobmanager
